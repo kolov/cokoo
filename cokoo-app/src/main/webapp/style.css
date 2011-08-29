@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+DIV.dragdrop-dropTarget {
+    background-color: #CCCCCC; /* gray */
+    border: 1px solid black;
+}
+
+DIV.dragdrop-dropTarget-engage {
+    background: #BCDEFF; /* lighter blue */
+}
+
+DIV.friendspanel-engaged {
+    background: #BCDEFF; /* lighter blue */
+    border: 5px;
+}
+
+/* ------------ Main Boundary Panel ------------ */
+DIV.main-boundary-panel {
+    background: #F8F8F8; /* light gray */
+    border: 1px solid blue;
+}
+
+.gwt-TabBar .gwt-TabBarItem {
+    cursor: pointer;
+}
+
+body {
+    background: none repeat scroll 0 0 #DEEFF6;
+    color: black;
+    font-size: small;
+    margin: 8px;
+
+    font: 14px Arial, sans-serif;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+
+}
+
+div .friendsPanel {
+    border-width: 1px;
+    border-color: #e0e0e0;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 10px;
+}
+
+.labelCategory {
+    font-style: italic;
+    font-family: Tahoma;
+    font-size: large;
+    font-weight: bold;
+}
+
+.highlighted {
+    border-color: orange;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+.image-tooltip {
+    background-color: white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-color: black;
+    border-width: 1px;
+    border-style: dotted;
+    padding: 2px;
+}
+
+.box.heading h1 {
+    color: #FFFFFF;
+    font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    padding-top: 16px !important;
+}
+
+.box h1 {
+    color: #333333;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.box.title {
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    height: 83px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.heading {
+    -moz-box-shadow: none !important;
+    background: url("/image/hgr.png") repeat-x scroll left top #4F81A2;
+    color: #FFFFFF;
+    height: auto;
+}
+
+.box {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow: 0 1px 2px #CDDDE4;
+    display: block;
+    margin-bottom: 25px;
+    padding: 0 0 20px;
+}

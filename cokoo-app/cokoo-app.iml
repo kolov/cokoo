@@ -11,7 +11,17 @@
         </webroots>
       </configuration>
       <facet type="google-app-engine" name="Google App Engine">
-        <configuration />
+        <configuration>
+          <password>dfcbdfd8dfdedfe3dfc4dffedfc2dfcfdfc5dfd8dfd3df9bdf9a</password>
+          <files-to-enhance>
+            <file path="$MODULE_DIR$/src/main/java" />
+            <file path="$MODULE_DIR$/src/main/scala" />
+            <file path="$MODULE_DIR$/src/main/resources" />
+          </files-to-enhance>
+          <run-enhancer-on-make>true</run-enhancer-on-make>
+          <sdk-home-path>$USER_HOME$/apps/appengine-java-sdk-1.5.2</sdk-home-path>
+          <email>assen.kolov@gmail.com</email>
+        </configuration>
       </facet>
     </facet>
     <facet type="scala" name="Scala">

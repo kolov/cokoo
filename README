@@ -1,1 +1,2 @@
-GWT ....
+GWT GAE Sample application.
+It shows your twitter contact an let you drag-drop them to groups. Tweets from the *star* groups ar resent to GTalk.
